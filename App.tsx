@@ -2,7 +2,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { PRODUCTS } from './constants';
 import { View, Product, CartItem, Order } from './types';
-import MachineSimulator from './components/MachineSimulator';
 import { getAIRecommendation } from './services/geminiService';
 import { 
   Search, Send, ShoppingCart, Plus, Minus, Trash2, QrCode, 
